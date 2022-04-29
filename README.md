@@ -4,15 +4,14 @@
 ![premium-icon-vending-machine-2514680](https://user-images.githubusercontent.com/98035984/165918810-62f800eb-ca40-43db-8236-f95f280207fe.png)
 
 ## mini project 주제
-- 카페에 메뉴를 불러주는 자판기 
+- 카페 메뉴를 불러주는 자판기 구현
 
 ## mini project 에 대한 소개
   - 누구 이런 협업 어떤 수업 
-  -
-
-=
+  
+  
 ## mini project 가 가지고 있는 대략적인 기능 설명
-## > 
+
 
 
 ## 기능 CRUD
@@ -60,13 +59,13 @@ void todayMenu(Product *p); // 랜덤으로 오늘의 추천 메뉴 알려주는
   - vs code
 
 ##  팀소개 및 팀원이 맡은 역할
-  >역할 분담 
-  >> repo 소유자 : 김석원 
-  >> contributer : 김예성 
-    >>> 함수 구현 : 김석원
-    >>>> 서비스 관리 : 김예성
+>팀원
+ >> 김석원 [isaccKim GITHUB LINK](https://github.com/isaccKim)
+  >>> Repo Owner
+   >>>> 코드 관리
+ >> 김예성 
+  >>> Contributer
+   >>>> 서비스 관리
 
 
 
-![HGU_Logo](https://user-images.githubusercontent.com/98035984/165715855-c2ca0016-8981-4fa0-8b3e-f459ffbc6466.png
->[isaccKim GITHUB LINK](https://github.com/isaccKim)
