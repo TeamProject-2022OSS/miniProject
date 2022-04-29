@@ -1,6 +1,6 @@
 # miniProject
 
-# 디저트 자핀기
+# 디저트 자
 ![premium-icon-vending-machine-2514680](https://user-images.githubusercontent.com/98035984/165918810-62f800eb-ca40-43db-8236-f95f280207fe.png)
 
 ## mini project 주제
@@ -63,9 +63,10 @@ void todayMenu(Product *p); // 랜덤으로 오늘의 추천 메뉴 알려주는
  >> 김석원 [isaccKim GITHUB LINK](https://github.com/isaccKim)
   >>> Repo Owner
    >>>> 코드 관리
- >> 김예성 
-  >>> Contributer
-   >>>> 서비스 관리
+
+>> 김예성 
+ >>> Contributer
+  >>>> 서비스 관리
 
 
 
