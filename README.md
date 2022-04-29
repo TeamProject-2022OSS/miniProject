@@ -50,7 +50,7 @@ void todayMenu(Product *p); // 랜덤으로 오늘의 추천 메뉴 알려주는
 //int viewChange(); // 거스름돈 내역을 알려주는 기능
 
 ```
-![premium-icon-vending-machine-1985826](https://user-images.githubusercontent.com/98035984/165920199-24430d88-7bdc-4ac3-a41b-579566b9015c.png)ㅍ
+![premium-icon-vending-machine-1985826](https://user-images.githubusercontent.com/98035984/165920199-24430d88-7bdc-4ac3-a41b-579566b9015c.png)
   - 특별한 기능: 오늘의 메뉴를 추천 
   - 랜덤으로 메뉴를 추천해 준다.
   - 동전을 받고 거스름돈 계산 || 거스름돈을 다 사용할 경우 종료 || 중간에 종료 가능 
@@ -66,3 +66,7 @@ void todayMenu(Product *p); // 랜덤으로 오늘의 추천 메뉴 알려주는
     >>> 함수 구현 : 김석원
     >>>> 서비스 관리 : 김예성
 
+
+
+![HGU_Logo](https://user-images.githubusercontent.com/98035984/165715855-c2ca0016-8981-4fa0-8b3e-f459ffbc6466.png
+>[isaccKim GITHUB LINK](https://github.com/isaccKim)
