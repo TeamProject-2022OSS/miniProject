@@ -1,6 +1,6 @@
 # miniProject
 
-# 디저트 자
+## 디저트 자판기
 ![premium-icon-vending-machine-2514680](https://user-images.githubusercontent.com/98035984/165918810-62f800eb-ca40-43db-8236-f95f280207fe.png)
 
 ## mini project 주제
