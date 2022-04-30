@@ -4,14 +4,20 @@
 ![premium-icon-vending-machine-2514680](https://user-images.githubusercontent.com/98035984/165918810-62f800eb-ca40-43db-8236-f95f280207fe.png)
 
 ## mini project 주제
-- 카페 메뉴를 불러주는 자판기 구현
+- 카페 메뉴를 불러오는 자판기 구현
 
 ## mini project 에 대한 소개
-  - 누구 이런 협업 어떤 수업 
+  - 19학번 김석원과 김예성이 OSS 수업을 통해 팀으로 결성
+  - mini project를 위한 여러가지 주제들 중에서 카페 메뉴를 다루는 자판기로 주제 선정
   
   
 ## mini project 가 가지고 있는 대략적인 기능 설명
-
+  - 원하는 금액을 투입
+  - 투입한 금액 내에서 구매 가능한 메뉴를 확인
+  - 메뉴를 고르고 남은 거스름돈 확인
+  - 추가 구매 여부를 묻고 원한다면 추가 구매 진행
+  - 잔돈이 남은 상태로 구매를 종료하면 거스름돈을 주고 영수증 출력
+  - 오늘의 추천 메뉴를 날마다 랜덤으로 설정
 
 
 ## 기능 CRUD
@@ -64,7 +70,7 @@ void todayMenu(Product *p); // 랜덤으로 오늘의 추천 메뉴 알려주는
   >>> Repo Owner
    >>>> 코드 관리
 
->> 김예성 
+>> 김예성 [Y-eseong GITHUB LINK](https://github.com/Y-eseong)
  >>> Contributer
   >>>> 서비스 관리
 
