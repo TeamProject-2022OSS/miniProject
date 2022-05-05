@@ -29,7 +29,7 @@ typedef struct {
     int price;
     int sugar;
     int coin; // 자판기에 넣은 돈
-    }menu;
+    }Product;
     // 구조체 
     
 int ceateProduct(Product *p); // 제품을 추가하는 함수 => 메뉴 선택
