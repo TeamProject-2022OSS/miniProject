@@ -24,8 +24,8 @@
 > 코드 및 기능
 ```c
 typedef struct {
+    int contents; // 1: 음료 2: 디저트
     char name[100];
-    char contents[100];
     char weight[100];
     int price;
     int sugar;
