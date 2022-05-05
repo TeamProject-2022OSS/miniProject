@@ -26,7 +26,6 @@
 typedef struct {
     int contents; // 1: 음료 2: 디저트
     char name[100];
-    char weight[100];
     int price;
     int sugar;
     int coin; // 자판기에 넣은 돈
