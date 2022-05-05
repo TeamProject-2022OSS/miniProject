@@ -28,9 +28,9 @@ typedef struct {
     char contents[100];
     char weight[100];
     int price;
-    int shipping;
+    int sugar;
     int coin; // 자판기에 넣은 돈
-    }Product;
+    }menu;
     // 구조체 
     
 int ceateProduct(Product *p); // 제품을 추가하는 함수 => 메뉴 선택
@@ -46,9 +46,9 @@ int selectDataNo(Product *p, int count); // 제품 번호를 불러오는
 int listProduct(Product *p, int count); // 전체 등록된 제품 리스트 출력
 //검색기능 이름/가격/배송방법
 
-void searchProductName(Product *p, int count); // 제품이름 검색
-void searchProductPrice(Product *p, int count); // 제품가격 검색 
-void searchProductShipping(Product *p, int count); // 배송방법 검색
+void searchProductName(Product *p, int count); // 메뉴이름 검색
+void searchProductPrice(Product *p, int count); // 메뉴가격 검색 
+void searchProductSugar(Product *p, int count); // 메뉴 설탕 추가 여부로 검색
 
 void todayMenu(Product *p); // 랜덤으로 오늘의 추천 메뉴 알려주는 기능
 //void inputCoin(Product *p); // 자판기 동전을 받는 기능
