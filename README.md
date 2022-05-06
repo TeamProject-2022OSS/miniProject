@@ -32,7 +32,7 @@ typedef struct {
     }Product;
     // 구조체 
     
-int ceateProduct(Product *p); // 제품을 추가하는 함수 => 메뉴 선택
+int createProduct(Product *p); // 제품을 추가하는 함수 => 메뉴 선택
 void readProduct(Product *p); // 하나의 제품 출력 함수 => 구매 목록 보기
 int updateProduct(Product *p); // 제품을 수정하는 함수 => 구매 목록 수정 
 int deleteProduct(Product *p); // 제품을 삭제하는 함수 => 구매 취소 [환불]
