@@ -50,8 +50,6 @@ void searchProductPrice(Product *p, int count); // 메뉴가격 검색
 void searchProductSugar(Product *p, int count); // 메뉴 설탕 추가 여부로 검색
 
 void todayMenu(Product *p); // 랜덤으로 오늘의 추천 메뉴 알려주는 기능
-//void inputCoin(Product *p); // 자판기 동전을 받는 기능
-//int viewChange(); // 거스름돈 내역을 알려주는 기능
 
 ```
 ![premium-icon-vending-machine-1985826](https://user-images.githubusercontent.com/98035984/165920199-24430d88-7bdc-4ac3-a41b-579566b9015c.png)
