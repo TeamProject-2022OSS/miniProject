@@ -56,7 +56,8 @@ void searchProductSugar(Product *p, int count); // 메뉴 설탕 추가 여부�
 void todayMenu(Product *p); // 랜덤으로 오늘의 추천 메뉴 알려주는 기능
 
 ```
-![premium-icon-vending-machine-1985826](https://user-images.githubusercontent.com/98035984/165920199-24430d88-7bdc-4ac3-a41b-579566b9015c.png)
+<img src="https://user-images.githubusercontent.com/98035984/165920199-24430d88-7bdc-4ac3-a41b-579566b9015c.png" height="300px" width="300px">
+
   - 특별한 기능: 오늘의 메뉴를 추천 
   - 랜덤으로 메뉴를 추천해 준다.
   - 동전을 받고 거스름돈 계산 || 거스름돈을 다 사용할 경우 종료 || 중간에 종료 가능 
