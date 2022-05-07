@@ -1,5 +1,6 @@
-<img src="https://user-images.githubusercontent.com/98035984/167238950-5f214cac-392f-4b56-9ab0-74ea83b7723c.jpeg" height="70px" width="200px"> #####  made by CUBE KIOSK
+#####  made by CUBE KIOSK
 
+<img src="https://user-images.githubusercontent.com/98035984/167238950-5f214cac-392f-4b56-9ab0-74ea83b7723c.jpeg" height="70px" width="200px"> 
 
 # miniProject
 
