@@ -1,11 +1,11 @@
 #####  made by CUBE KIOSK
 
-<img src="https://user-images.githubusercontent.com/98035984/167238950-5f214cac-392f-4b56-9ab0-74ea83b7723c.jpeg" height="70px" width="200px"> 
+<p align="center"><img src="https://user-images.githubusercontent.com/98035984/167238950-5f214cac-392f-4b56-9ab0-74ea83b7723c.jpeg" height="100px" width="250px"></p>
 
 # miniProject
 
 ## 디저트 자판기
-<p align="center"><img src="https://user-images.githubusercontent.com/98035984/167238404-7c0a4810-d7f4-4899-9d73-b195c32b7c1d.png" height="300px" width="300px"></p>
+<img src="https://user-images.githubusercontent.com/98035984/167238404-7c0a4810-d7f4-4899-9d73-b195c32b7c1d.png" height="300px" width="300px">
 
 ## mini project 주제
 - 카페 메뉴를 불러오는 자판기 구현
