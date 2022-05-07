@@ -1,6 +1,7 @@
 #####  made by CUBE KIOSK
 
-<p align="center"><img src="https://user-images.githubusercontent.com/98035984/167238950-5f214cac-392f-4b56-9ab0-74ea83b7723c.jpeg" height="100px" width="250px"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/98035984/167239410-4cd9722d-1464-49e7-b82f-509ce0736362.jpeg" height="100px" width="250px"></p>
+
 
 # miniProject
 
