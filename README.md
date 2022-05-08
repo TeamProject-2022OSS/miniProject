@@ -1,9 +1,9 @@
-#####  🥑made by CUBE KIOSK
+#####  🥑 made by CUBE KIOSK
 
 <p align="center"><img src="https://user-images.githubusercontent.com/98035984/167239410-4cd9722d-1464-49e7-b82f-509ce0736362.jpeg" height="150px" width="300px"></p>
 
 
-# miniProject
+# 🥑 miniProject
 
 ## 디저트 자판기
 <img src="https://user-images.githubusercontent.com/98035984/167238404-7c0a4810-d7f4-4899-9d73-b195c32b7c1d.png" height="300px" width="300px">
