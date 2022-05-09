@@ -32,7 +32,6 @@ typedef struct {
     char name[100];
     int price;
     int sugar;
-    int coin; // 자판기에 넣은 돈
     }Product;
     // 구조체 
     
