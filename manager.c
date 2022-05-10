@@ -25,17 +25,19 @@ int selectDataNo(Product *p, int count){
 
 int selectMenu(){
     int menu;
+    printf("\n ┌───▣─▣─CUBE_KIOSK─▣─▣───┐\n");
     printf("\n");
-    printf("1. 메뉴조회\n");
-    printf("2. 메뉴추가\n");
-    printf("3. 메뉴수정\n");
-    printf("4. 메뉴삭제\n");
-    printf("5. 파일저장 \n");
-    printf("6. 이름검색\n");
-    printf("7. 가격검색\n");
-    printf("8. 설탕 여부 검색\n");
-    printf("9. 오늘의 메뉴\n");
-    printf("0. 종료\n\n");
+    printf("┌▣    1. 메뉴조회        ▣┐\n");
+    printf("┌▣    2. 메뉴추가        ▣┐\n");
+    printf("┌▣    3. 메뉴수정        ▣┐\n");
+    printf("┌▣    4. 메뉴삭제        ▣┐\n");
+    printf("┌▣    5. 파일저장        ▣┐\n");
+    printf("┌▣    6. 이름검색        ▣┐\n");
+    printf("┌▣    7. 가격검색        ▣┐\n");
+    printf("┌▣    8. 설탕 여부 검색  ▣┐\n");
+    printf("┌▣    9. 오늘의 메뉴     ▣┐\n");
+    printf("┌▣    0. 종료            ▣┐\n");
+    printf("\n └───▣─▣─CUBE_KIOSK─▣─▣───┘\n\n");
     printf("=> 원하는 메뉴는? ");
     scanf("%d", &menu);
     return menu;
