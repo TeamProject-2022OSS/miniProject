@@ -3,8 +3,10 @@
 
 int main(){
     Product p[30];
+    Product rp[3];
     int count = 0, menu;
     int index = 0;
+    count = loadProduct(p);
     index = count;
 
     while (1){
@@ -23,6 +25,7 @@ int main(){
                 printf("=> 취소함\n");
                 continue;
             }
+            updateProduct(&p[no-1]);
         } //수정
 
         else if (menu == 4 && count >= 1){
@@ -36,6 +39,25 @@ int main(){
             printf("정말로 삭제하시겠습니까(삭제 :1)");
             scanf("%d", &deleteOk);
             if (deleteOk == 1)count -= deleteProduct(&p[no-1]);
+        }
+        else if(menu == 5){
+           saveProduct(p,index);
+           }
+
+        else if(menu == 6){
+            searchProductName(p,index);
+        }
+
+        else if(menu == 7){
+            searchProductPrice(p,index);
+        }
+
+        else if(menu == 8){
+            searchProductSugar(p,index);
+        }
+        else if(menu == 9){
+            setRandomMenu(rp);
+            todayMenu(rp);
         }
             continue;
     }
