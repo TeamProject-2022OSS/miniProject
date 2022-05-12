@@ -16,7 +16,7 @@ int main(){
        if (menu == 1 && count != 0)listProduct(p,index);//메뉴조회
         
         else if (menu == 2){
-            count += ceateProduct(&p[index++]);
+            count += createProduct(&p[index++]);
         } //메뉴추가
 
         else if (menu == 3 && count >= 1){
