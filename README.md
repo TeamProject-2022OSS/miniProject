@@ -1,7 +1,7 @@
 #####  🥑 made by CUBE KIOSK
 
 <p align="center"><img src="https://user-images.githubusercontent.com/98035984/167239410-4cd9722d-1464-49e7-b82f-509ce0736362.jpeg" height="150px" width="300px"></p>
-
+    
 
 # 🥑 miniProject
 
@@ -32,7 +32,6 @@ typedef struct {
     char name[100];
     int price;
     int sugar;
-    int coin; // 자판기에 넣은 돈
     }Product;
     // 구조체 
     
