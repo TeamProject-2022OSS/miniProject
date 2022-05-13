@@ -84,14 +84,14 @@ void searchProductPrice(Product *p, int count){
 
 void searchProductSugar(Product *p, int count){
     int scnt = 0;
-    char search[20];
+    int search=0;
 
     printf("검색할 설탕여부? ");
-    scanf(" %s", search);
+    scanf(" %d", &search);
 printf("\n ┌───▣─▣─CUBE_KIOSK─▣─▣───┐\n");    
     for(int i=0; i<count; i++){
         if(p[i].price == -1)continue;
-        if(strstr(p[i].sugar,search)){
+        if(p[i].sugar==search){
             printf("%2d ", i+1);
             readProduct(&p[i]);
             scnt++;
@@ -103,10 +103,13 @@ printf("\n ┌───▣─▣─CUBE_KIOSK─▣─▣───┐\n");
 
 void setRandomMenu(Product *rp){
     
-    strcpy(rp[0].contents,"음료"), 
+    /*strcpy(rp[0].contents,"음료"), 
     rp[0].price = 5000, strcpy(rp[0].sugar,"설탕"), strcpy(rp[0].name,"달고나라떼");
     strcpy(rp[1].contents,"디저트"), rp[1].price = 7500, strcpy(rp[0].sugar,"설탕"), strcpy(rp[1].name,"딸기케이크");
-    strcpy(rp[2].contents,"음료"), rp[2].price = 4000, strcpy(rp[2].sugar,"무설탕"), strcpy(rp[2].name,"허브차");
+    strcpy(rp[2].contents,"음료"), rp[2].price = 4000, strcpy(rp[2].sugar,"무설탕"), strcpy(rp[2].name,"허브차");*/
+    strcpy(rp[0].contents,"음료"), rp[0].price = 5000, rp[0].sugar = 1, strcpy(rp[0].name,"달고나라떼");
+    strcpy(rp[1].contents,"디저트"), rp[1].price = 7500, rp[0].sugar = 1, strcpy(rp[1].name,"딸기케이크");
+    strcpy(rp[2].contents,"음료"), rp[2].price = 4000, rp[2].sugar = 0, strcpy(rp[2].name,"허브차");
 }
 
 Product todayMenu (Product *rp){
