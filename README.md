@@ -69,14 +69,14 @@ void todayMenu(Product *p); // 랜덤으로 오늘의 추천 메뉴 알려주는
 ### 팀원
  #### 김석원 [isaccKim GITHUB LINK](https://github.com/isaccKim)
   - Repo Owner
-  - 코딩
+  - 부가기능 구현
   - WIKI 관리
   - 코드 관리 (오류수정) 
   - 로고제작
 
 #### 김예성 [Y-eseong GITHUB LINK](https://github.com/Y-eseong)
  - Contributer
- - 코딩
+ - CRUD 구현
 
 
 
