@@ -49,7 +49,7 @@ void saveProduct(Product *p, int count){
     fp = fopen("Product.txt","wt");
     for(int i=0; i<count; i++){
         if(p->price == -1)continue;
-        fprintf(fp,"%s  %s  %s  %d\n",p->contents, p->name,p->sugar,p->price);
+        fprintf(fp,"%s  %s  %s  %d\n",p[i].contents, p[i].name,p[i].sugar,p[i].price);
     }
     fclose(fp);
     printf("=>저장됨!\n");
