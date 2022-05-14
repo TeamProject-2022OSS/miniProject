@@ -4,12 +4,11 @@
 
 int listProduct(Product *p, int count){
 printf("********카페_디저트_자판기********\n");
-printf("   구분   이름   설탕추가  가격\n");
+printf("   구분   이름   시럽추가  가격\n");
     for (int i = 0; i < count; i++){
         if (p[i].price == -1)continue;
         printf("%2d ", i + 1); // NO 숫자
         readProduct(&p[i]);
-        printf("\n");
     }
     return 0;
 }
@@ -33,7 +32,7 @@ int selectMenu(){
     printf("┌▣    5. 파일저장        ▣┐\n");
     printf("┌▣    6. 이름검색        ▣┐\n");
     printf("┌▣    7. 가격검색        ▣┐\n");
-    printf("┌▣    8. 설탕 여부 검색  ▣┐\n");
+    printf("┌▣    8. 시럽추가 검색   ▣┐\n");
     printf("┌▣    9. 오늘의 메뉴     ▣┐\n");
     printf("┌▣    0. 종료            ▣┐\n");
     printf("\n └───▣─▣─CUBE_KIOSK─▣─▣───┘\n\n");
@@ -50,6 +49,7 @@ void searchProductName(Product *p, int count){
     scanf(" %s", search);
     
 printf("\n ┌───▣─▣─CUBE_KIOSK─▣─▣───┐\n");
+printf("   구분   이름   시럽추가  가격\n");
     for(int i=0; i<count; i++){
         if(p[i].price == -1)continue;
         if(strstr(p[i].name,search)){
@@ -70,6 +70,7 @@ void searchProductPrice(Product *p, int count){
     scanf(" %d", &search);
     
     printf("\n ┌───▣─▣─CUBE_KIOSK─▣─▣───┐\n");
+    printf("   구분   이름   시럽추가  가격\n");
     for(int i=0; i<count; i++){
         if(p[i].price == -1)continue;
         if(p[i].price == search){
@@ -84,14 +85,15 @@ void searchProductPrice(Product *p, int count){
 
 void searchProductSugar(Product *p, int count){
     int scnt = 0;
-    int search=0;
+    char search[20];
 
-    printf("검색할 설탕여부? ");
-    scanf(" %d", &search);
-printf("\n ┌───▣─▣─CUBE_KIOSK─▣─▣───┐\n");    
+    printf("검색할 시럽추가 여부? ");
+    scanf(" %s", search);
+    printf("\n ┌───▣─▣─CUBE_KIOSK─▣─▣───┐\n");
+    printf("   구분   이름   시럽추가  가격\n");    
     for(int i=0; i<count; i++){
         if(p[i].price == -1)continue;
-        if(p[i].sugar==search){
+        if(strstr(p[i].sugar,search)){
             printf("%2d ", i+1);
             readProduct(&p[i]);
             scnt++;
@@ -103,13 +105,10 @@ printf("\n ┌───▣─▣─CUBE_KIOSK─▣─▣───┐\n");
 
 void setRandomMenu(Product *rp){
     
-    /*strcpy(rp[0].contents,"음료"), 
+    strcpy(rp[0].contents,"음료"), 
     rp[0].price = 5000, strcpy(rp[0].sugar,"설탕"), strcpy(rp[0].name,"달고나라떼");
     strcpy(rp[1].contents,"디저트"), rp[1].price = 7500, strcpy(rp[0].sugar,"설탕"), strcpy(rp[1].name,"딸기케이크");
-    strcpy(rp[2].contents,"음료"), rp[2].price = 4000, strcpy(rp[2].sugar,"무설탕"), strcpy(rp[2].name,"허브차");*/
-    strcpy(rp[0].contents,"음료"), rp[0].price = 5000, rp[0].sugar = 1, strcpy(rp[0].name,"달고나라떼");
-    strcpy(rp[1].contents,"디저트"), rp[1].price = 7500, rp[0].sugar = 1, strcpy(rp[1].name,"딸기케이크");
-    strcpy(rp[2].contents,"음료"), rp[2].price = 4000, rp[2].sugar = 0, strcpy(rp[2].name,"허브차");
+    strcpy(rp[2].contents,"음료"), rp[2].price = 4000, strcpy(rp[2].sugar,"무설탕"), strcpy(rp[2].name,"허브차");
 }
 
 Product todayMenu (Product *rp){
@@ -135,7 +134,3 @@ Product todayMenu (Product *rp){
         printf("└───ψ─ψ─오늘의 메뉴─ψ─ψ───┘\n\n");
         return rp[2];
 }
-
-
-
- 
