@@ -68,14 +68,15 @@ void todayMenu(Product *p); // 랜덤으로 오늘의 추천 메뉴 알려주는
 ##  팀소개 및 팀원이 맡은 역할
 >팀원
  >> 김석원 [isaccKim GITHUB LINK](https://github.com/isaccKim)
-  >>> Repo Owner
-   >>>> 코딩
-   >>>>> WIKI 관리
-   >>>>>> 코드 
+  - Repo Owner
+  - 코딩
+  -  WIKI 관리
+  -  코드 
+  -  로고제작
 
 >> 김예성 [Y-eseong GITHUB LINK](https://github.com/Y-eseong)
- >>> Contributer
-  >>>> 코딩
+ - Contributer
+ - 코딩
 
 
 
