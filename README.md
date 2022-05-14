@@ -5,18 +5,19 @@
   
 # 🥑 miniProject
 
-## 디저트 자판기
+## 디저트 키오스크
 <img src="https://user-images.githubusercontent.com/98035984/167238404-7c0a4810-d7f4-4899-9d73-b195c32b7c1d.png" height="300px" width="300px">
 
-## mini project 주제
-- 카페 메뉴를 불러오는 자판기 구현
+## CUBE KIOSK 주제
+- 카페 메뉴 주문을 관리하는 프로그램
 
-## mini project 에 대한 소개
-  - 19학번 김석원과 김예성이 OSS 수업을 통해 팀으로 결성
-  - mini project를 위한 여러가지 주제들 중에서 카페 메뉴를 다루는 자판기로 주제 선정
+## CUBE KIOSK에 대한 소개
+  - 바쁜 주문을 간편하게 만들어주는 CUBE KIOSK 입니다.
+  - 간단한 번호 입력을 통하여 주문서를 자동으로 정리해줍니다
+  - 관리자가 직접 관리하지 않아도 오늘의 추천 메뉴를 자동으로 정해주는 키오스크 입니다.
     
   
-## mini project 가 가지고 있는 대략적인 기능 설명
+##  CUBE KIOSK가 가지고 있는 대략적인 기능 설명
   - 주문서에 메뉴 추가 기능
   - 주문내역 수정 기능 
   - 추가 구매 여부를 묻고 원한다면 추가 구매 진행
@@ -24,7 +25,7 @@
   - 오늘의 추천 메뉴를 날마다 랜덤으로 설정
 
    
-## 기능 CRUD
+## CUBE KIOSK 기능 CRUD
 > 코드 및 기능
 ```c
 typedef struct {
