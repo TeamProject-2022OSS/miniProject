@@ -16,12 +16,15 @@
 
 # 🧊 miniProject
 
-## 디저트 키오스크
-<img src="https://user-images.githubusercontent.com/98035984/167238404-7c0a4810-d7f4-4899-9d73-b195c32b7c1d.png" height="300px" width="300px">
+<div align="center"> 
 
+<img src="https://user-images.githubusercontent.com/98035984/167238404-7c0a4810-d7f4-4899-9d73-b195c32b7c1d.png" height="300px" width="300px">
+ 
+  ## *Dessert_KIOSK*  
+</div>
   
 ## 📟 CUBE KIOSK 주제
- - <center> 카페 메뉴 주문을 관리하는 프로그램 </center>
+ - 카페 메뉴 주문을 관리하는 프로그램 
 
 
 
@@ -74,10 +77,9 @@ void searchProductSugar(Product *p, int count); // 메뉴 설탕 추가 여부�
 void todayMenu(Product *p); // 랜덤으로 오늘의 추천 메뉴 알려주는 기능
 
 ```
-<img src="https://user-images.githubusercontent.com/98035984/165920199-24430d88-7bdc-4ac3-a41b-579566b9015c.png" height="300px" width="300px">
 
-  - 특별한 기능: 오늘의 메뉴를 추천 
-  - 랜덤으로 메뉴를 추천해 준다.
+  ### **특별한 기능: 오늘의 메뉴를 추천 
+  ### **랜덤으로 메뉴를 추천해 준다.
 
 
 
