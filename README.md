@@ -1,9 +1,17 @@
-#####  🧊 made by CUBE KIOSK
- <p align="center"><img src="https://user-images.githubusercontent.com/98035984/168477541-e8376706-6827-4f61-aa55-2b0f2a247ae2.png" height="300px" width="300px"></p>
-  
-    <center>Welcome_To_CUBE KIOSK</center>
-    <center>가운데</center>  
 
+#####  🧊 made by CUBE KIOSK
+<div align="center">
+<p align="center"><img src="https://user-images.githubusercontent.com/98035984/168477541-e8376706-6827-4f61-aa55-2b0f2a247ae2.png" height="300px" width="300px"></p>
+
+ ### 🧊 Welcome to Ice CUBE KIOSK 🧊
+ <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
+ <img src="https://img.shields.io/badge/C-00CCFF?style=flat-square&logo=C&logoColor="white"/>
+ <img src="https://img.shields.io/badge/VisualStudioCode-0000FF?style=flat-square&logo=VisualStudioCode&logoColor="black"/>
+ <img src="https://img.shields.io/badge/KakaoTalk-FFFF00?style=flat-square&logo=KakaoTalk&logoColor="white"/>
+ <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=Markdown&logoColor="white"/>
+                                                                                                            
+
+</div>
     
 
 # 🧊 miniProject
@@ -15,11 +23,15 @@
 ## 📟 CUBE KIOSK 주제
  - <center> 카페 메뉴 주문을 관리하는 프로그램 </center>
 
+
+
 ## 📟 CUBE KIOSK에 대한 소개
   - 바쁜 주문을 간편하게 만들어주는 CUBE KIOSK 입니다.
   - 간단한 번호 입력을 통하여 주문서를 자동으로 정리해줍니다
   - 관리자가 직접 관리하지 않아도 오늘의 추천 메뉴를 자동으로 정해주는 키오스크 입니다.
-    
+
+
+
   
 ##  📟 CUBE KIOSK가 가지고 있는 대략적인 기능 설명
   - 주문서에 메뉴 추가 기능
@@ -28,7 +40,9 @@
   - 주문내역 수정 
   - 오늘의 추천 메뉴를 날마다 랜덤으로 설정
 
-   
+
+
+
 ## 📟 CUBE KIOSK 기능 CRUD
 > 코드 및 기능
 ```c
@@ -64,10 +78,14 @@ void todayMenu(Product *p); // 랜덤으로 오늘의 추천 메뉴 알려주는
 
   - 특별한 기능: 오늘의 메뉴를 추천 
   - 랜덤으로 메뉴를 추천해 준다.
-  
+
+
+
 ## 📟 개발환경 및 언어
   - git 
   - vs code
+
+
 
 ## 📟 팀소개 및 팀원이 맡은 역할
 ### 팀원
