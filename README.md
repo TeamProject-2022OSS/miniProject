@@ -8,16 +8,16 @@
 ## 디저트 키오스크
 <img src="https://user-images.githubusercontent.com/98035984/167238404-7c0a4810-d7f4-4899-9d73-b195c32b7c1d.png" height="300px" width="300px">
 
-## CUBE KIOSK 주제
+## 📟 CUBE KIOSK 주제
 - 카페 메뉴 주문을 관리하는 프로그램
 
-## CUBE KIOSK에 대한 소개
+## 📟 CUBE KIOSK에 대한 소개
   - 바쁜 주문을 간편하게 만들어주는 CUBE KIOSK 입니다.
   - 간단한 번호 입력을 통하여 주문서를 자동으로 정리해줍니다
   - 관리자가 직접 관리하지 않아도 오늘의 추천 메뉴를 자동으로 정해주는 키오스크 입니다.
     
   
-##  CUBE KIOSK가 가지고 있는 대략적인 기능 설명
+##  📟 CUBE KIOSK가 가지고 있는 대략적인 기능 설명
   - 주문서에 메뉴 추가 기능
   - 주문내역 수정 기능 
   - 추가 구매 여부를 묻고 원한다면 추가 구매 진행
@@ -25,7 +25,7 @@
   - 오늘의 추천 메뉴를 날마다 랜덤으로 설정
 
    
-## CUBE KIOSK 기능 CRUD
+## 📟 CUBE KIOSK 기능 CRUD
 > 코드 및 기능
 ```c
 typedef struct {
@@ -61,11 +61,11 @@ void todayMenu(Product *p); // 랜덤으로 오늘의 추천 메뉴 알려주는
   - 특별한 기능: 오늘의 메뉴를 추천 
   - 랜덤으로 메뉴를 추천해 준다.
   
-## 개발환경 및 언어
+## 📟 개발환경 및 언어
   - git 
   - vs code
 
-##  팀소개 및 팀원이 맡은 역할
+## 📟 팀소개 및 팀원이 맡은 역할
 ### 팀원
  #### 김석원 [isaccKim GITHUB LINK](https://github.com/isaccKim)
   - Repo Owner
