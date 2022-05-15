@@ -1,15 +1,17 @@
 #####  🧊 made by CUBE KIOSK
-
-<p align="center"><img src="https://user-images.githubusercontent.com/98035984/167239410-4cd9722d-1464-49e7-b82f-509ce0736362.jpeg" height="150px" width="300px"></p>
-    
+ <p align="center"><img src="https://user-images.githubusercontent.com/98035984/168477541-e8376706-6827-4f61-aa55-2b0f2a247ae2.png" height="300px" width="300px"></p>
   
+    
+    
+
 # 🧊 miniProject
 
 ## 디저트 키오스크
 <img src="https://user-images.githubusercontent.com/98035984/167238404-7c0a4810-d7f4-4899-9d73-b195c32b7c1d.png" height="300px" width="300px">
 
+  
 ## 📟 CUBE KIOSK 주제
-- 카페 메뉴 주문을 관리하는 프로그램
+ - <center> 카페 메뉴 주문을 관리하는 프로그램 </center>
 
 ## 📟 CUBE KIOSK에 대한 소개
   - 바쁜 주문을 간편하게 만들어주는 CUBE KIOSK 입니다.
@@ -78,5 +80,4 @@ void todayMenu(Product *p); // 랜덤으로 오늘의 추천 메뉴 알려주는
  - Contributer
  - CRUD 구현
 
-
-
+<p align="center"><img src="https://user-images.githubusercontent.com/98035984/167239410-4cd9722d-1464-49e7-b82f-509ce0736362.jpeg" height="150px" width="300px"></p>
